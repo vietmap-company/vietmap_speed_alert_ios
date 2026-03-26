@@ -1,0 +1,11 @@
+framework module VietmapSpeedAlertSDK {
+  umbrella header "VietmapSpeedAlertSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module VietmapSpeedAlertSDK.Swift {
+  header "VietmapSpeedAlertSDK-Swift.h"
+  requires objc
+}
